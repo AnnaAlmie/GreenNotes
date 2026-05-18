@@ -49,7 +49,6 @@ body {
 
 .app-content {
   width: 100%;
-  max-width: 44rem;
   background: $panel;
   border-radius: 1rem;
   padding: 2rem;

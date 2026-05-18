@@ -1,18 +1,192 @@
 [
   {
-    "id": 1,
-    "title": "Fiddle Leaf Fig",
-    "image": "https://images.unsplash.com/photo-1557683316-973673baf926?auto=format&fit=crop&w=800&q=80",
-    "description": "A popular indoor tree with large, glossy leaves that brighten any room.",
+    "id": "spathiphyllum",
+    "title": "Спатифілум",
+    "titlePopular": "Жіноче щастя",
+    "image": "assets/plants/spathiphyllum.jpg",
+    "description": "",
     "light": "Bright indirect light",
-    "water": "Water weekly, allow topsoil to dry between waterings"
+    "water": "Water weekly, allow topsoil to dry between waterings",
+    "lifeArea": "ростуть у вологих і болотистих лісах, уздовж річок і струмків"
   },
   {
-    "id": 2,
-    "title": "Snake Plant",
-    "image": "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=800&q=80",
-    "description": "A low-maintenance plant with upright leaves that tolerate low light and infrequent watering.",
+    "id": "zamioculcas",
+    "title": "Заміокулькас",
+    "image": "assets/plants/zamioculcas.webp",
     "light": "Low to bright indirect light",
-    "water": "Water every 2-3 weeks, do not overwater"
+    "water": "Water every 2-3 weeks, do not overwater",
+    "lifeArea": ""
+  },
+  {
+    "id": "schlumbergera",
+    "title": "Шлумбергера",
+    "titlePopular": "Різдвяник",
+    "image": "assets/plants/schlumbergera.jpg"
+  },
+  {
+    "id": "amaryllis",
+    "title": "Амариліс",
+    "image": "assets/plants/amaryllis.jpg"
+  },
+  {
+    "id": "kalanchoe_blossfeldiana",
+    "title": "Каланхое Блоссфельда",
+    "image": "assets/plants/kalanchoe_blossfeldiana.webp"
+  },
+  {
+    "id": "dracaena_reflexa",
+    "title": "Драцена облямована",
+    "image": "assets/plants/dracaena_reflexa.jpg"
+  },
+  {
+    "id": "hibiscus_rosa",
+    "title": "Гібіск китайська рожа",
+    "image": "assets/plants/hibiscus_rosa.jpg"
+  },
+  {
+    "id": "sansevieria",
+    "title": "Сансев'єрія",
+    "titlePopular": "Щучий хвіст",
+    "image": "assets/plants/sansevieria.webp"
+  },
+  {
+    "id": "sansevieria_cylindrica",
+    "title": "Сансев'є́рія циліндри́чна",
+    "image": "assets/plants/sansevieria_cylindrica.webp"
+  },
+  {
+    "id": "sansevieria_hanni",
+    "title": "Сансев'є́рія Ханні",
+    "image": "assets/plants/sansevieria_hanni.webp"
+  },
+  {
+    "id": "aichryson",
+    "title": "Аихризон",
+    "titlePopular": "Дерево кохання",
+    "image": "assets/plants/aichryson.jpg"
+  },
+  {
+    "id": "gasteria",
+    "title": "Ґастерія",
+    "image": "assets/plants/gasteria.jpg"
+  },
+  {
+    "id": "haemanthus",
+    "title": "Гемантус",
+    "image": "assets/plants/haemanthus.jpg"
+  },
+  {
+    "id": "solanum_pseudocapsicum",
+    "title": "Паслін псевдоперцевий",
+    "titlePopular": "Ягоди кохання",
+    "image": "assets/plants/solanum_pseudocapsicum.jpg"
+  },
+  {
+    "id": "eucharis",
+    "title": "Евхарис",
+    "titlePopular": "Амазонська лілія",
+    "image": "assets/plants/eucharis.jpg"
+  },
+  {
+    "id": "crassula",
+    "title": "Красула",
+    "titlePopular": "Грошове дерево",
+    "image": "assets/plants/crassula.webp"
+  },
+  {
+    "id": "aloe",
+    "title": "Алое",
+    "image": "assets/plants/aloe.jpg"
+  },
+  {
+    "id": "phoenix",
+    "title": "Фінік",
+    "image": "assets/plants/phoenix.webp"
+  },
+  {
+    "id": "limon",
+    "title": "Лимон",
+    "image": "assets/plants/lemon.jpg"
+  },
+  {
+    "id": "viola",
+    "title": "Фіалка",
+    "image": "assets/plants/viola.jpg"
+  },
+  {
+    "id": "begonia_ds_red_diamond",
+    "title": "Бегония DS-Red Diamond",
+    "image": "assets/plants/begonia_ds_red_diamond.jpg"
+  },
+  {
+    "id": "callisia_fragrans",
+    "title": "Калізія запашна",
+    "titlePopular": "Золотистим вус",
+    "image": "assets/plants/callisia_fragrans.jpg"
+  },
+  {
+    "id": "cactaceae",
+    "title": "Кактус",
+    "image": "assets/plants/cactaceae.jpeg"
+  },
+  {
+    "id": "plectranthus_amboinicus",
+    "title": "Плектрантус",
+    "titlePopular": "Кімнатна м'ята",
+    "image": "assets/plants/plectranthus_amboinicus.jpg"
+  },
+  {
+    "id": "anturium",
+    "title": "Антуріум",
+    "titlePopular": "Чоловіче щастя",
+    "image": "assets/plants/anturium.jpg"
+  },
+  {
+    "id": "dracaena_sanderiana",
+    "title": "Бамбук щастя",
+    "image": "assets/plants/dracaena_sanderiana.jpg"
+  },
+  {
+    "id": "tradescantia_zebrina",
+    "title": "Традесканція зебріна",
+    "image": "assets/plants/tradescantia_zebrina.webp"
+  },
+  {
+    "id": "geranium",
+    "title": "Журавець",
+    "titlePopular": "Герань",
+    "image": "assets/plants/geranium.png"
+  },
+  {
+    "id": "rhoicissus",
+    "title": "Роіцисус",
+    "titlePopular": "Кімнатний виноград",
+    "image": "assets/plants/rhoicissus.jpg"
+  },
+  {
+    "id": "scindapsus_pictus",
+    "title": "Сциндапсус Пиктус",
+    "image": "assets/plants/scindapsus_pictus.webp"
+  },
+  {
+    "id": "crocus",
+    "title": "Крокус",
+    "titlePopular": "Шафран",
+    "image": "assets/plants/crocus.jpg"
+  },
+  {
+    "id": "hyacinthus",
+    "title": "Гіацинт",
+    "image": "assets/plants/hyacinthus.jpg"
+  },
+  {
+    "id": "narcissus",
+    "title": "Нарцис",
+    "image": "assets/plants/narcissus.jpg"
+  },
+  {
+    "id": "muscari",
+    "title": "Мускарі",
+    "image": "assets/plants/muscari.webp"
   }
 ]

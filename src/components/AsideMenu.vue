@@ -12,6 +12,7 @@
         :to="{ name: 'PlantDetail', params: { id: p.id } }"
       >
         {{ p.title }}
+        <small v-if="p.titlePopular">({{ p.titlePopular }})</small>
       </router-link>
     </nav>
   </aside>
@@ -21,9 +22,10 @@
 import plants from "../data/plants.json";
 
 interface Plant {
-  id: number;
-  title: string;
+  id: string;
   image: string;
+  title: string;
+  titlePopular?: string;
 }
 
 const plantsList: Plant[] = plants as Plant[];

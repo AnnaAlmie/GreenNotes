@@ -1,7 +1,7 @@
 <template>
   <article class="plant-card">
     <div class="image-wrap">
-      <img :src="plant.image" :alt="plant.title" />
+      <PlantImage :image="plant.image" :alt="plant.title" />
     </div>
     <div class="card-body">
       <h3>{{ plant.title }}</h3>
@@ -10,8 +10,10 @@
 </template>
 
 <script setup lang="ts">
+import PlantImage from "@/components/PlantImage.vue";
+
 interface Plant {
-  id: number;
+  id: string;
   title: string;
   image: string;
 }
@@ -48,6 +50,7 @@ const props = defineProps<{ plant: Plant }>();
   height: 100%;
   object-fit: cover;
   display: block;
+  aspect-ratio: 1 / 1;
 }
 
 .card-body {

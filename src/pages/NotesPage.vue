@@ -24,7 +24,7 @@ import PlantCard from "../components/PlantCard.vue";
 import plantData from "../data/plants.json";
 
 interface Plant {
-  id: number;
+  id: string;
   title: string;
   image: string;
   description: string;

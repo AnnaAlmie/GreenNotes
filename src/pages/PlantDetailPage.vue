@@ -4,17 +4,19 @@
 
     <div class="detail-card">
       <div class="detail-image">
-        <img :src="plant.image" :alt="plant.title" />
+        <PlantImage :image="plant.image" :alt="plant.title" />
       </div>
       <div class="detail-body">
         <h2>{{ plant.title }}</h2>
-        <p class="description">{{ plant.description }}</p>
+        <p v-if="plant.description" class="description">
+          {{ plant.description }}
+        </p>
         <dl>
-          <div>
+          <div v-if="plant.light">
             <dt>Light</dt>
             <dd>{{ plant.light }}</dd>
           </div>
-          <div>
+          <div v-if="plant.water">
             <dt>Water</dt>
             <dd>{{ plant.water }}</dd>
           </div>
@@ -27,10 +29,11 @@
 <script setup lang="ts">
 import { computed, watch } from "vue";
 import { useRoute, useRouter } from "vue-router";
-import plants from "../data/plants.json";
+import plants from "@/data/plants.json";
+import PlantImage from "@/components/PlantImage.vue";
 
 interface Plant {
-  id: number;
+  id: string;
   title: string;
   image: string;
   description: string;
@@ -42,14 +45,16 @@ const route = useRoute();
 const router = useRouter();
 
 const plant = computed(() => {
-  const id = Number(route.params.id);
+  const id = route.params.id as string;
   return (plants as Plant[]).find((item) => item.id === id);
 });
 
 watch(
   plant,
-  (val) => {
-    if (!val) router.replace("/");
+  (currentPlant) => {
+    if (!currentPlant) {
+      router.replace("/");
+    }
   },
   { immediate: true },
 );
