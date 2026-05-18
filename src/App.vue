@@ -1,17 +1,24 @@
 <template>
   <main class="app-shell">
-    <section>
-      <h1>GreenNotes</h1>
-      <p>
-        Welcome to your new Vue + Vite starter app. Push to
-        <code>main</code> and GitHub Actions will build and publish it to
-        <code>gh-pages</code>.
-      </p>
+    <nav class="app-nav">
+      <router-link to="/">Notes</router-link>
+      <router-link to="/about">About</router-link>
+    </nav>
+
+    <section class="app-content">
+      <router-view />
     </section>
   </main>
 </template>
 
-<style>
+<style lang="scss">
+@use "sass:color";
+
+$bg: #ecfdf5;
+$text: #065f46;
+$panel: #ffffff;
+$shadow: rgba(15, 23, 42, 0.12);
+
 :root {
   color-scheme: light;
   font-family:
@@ -26,8 +33,8 @@
 
 body {
   margin: 0;
-  background: #ecfdf5;
-  color: #065f46;
+  background: $bg;
+  color: $text;
 }
 
 .app-shell {
@@ -37,12 +44,36 @@ body {
   padding: 2rem;
 }
 
-section {
+.app-nav {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.app-nav a {
+  color: $text;
+  text-decoration: none;
+  font-weight: 700;
+  padding: 0.6rem 1rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.75);
+  border: 1px solid rgba(6, 95, 70, 0.12);
+}
+
+.app-nav a.router-link-active {
+  background: #065f46;
+  color: white;
+}
+
+.app-content {
+  width: 100%;
   max-width: 44rem;
-  background: white;
+  background: $panel;
   border-radius: 1rem;
   padding: 2rem;
-  box-shadow: 0 24px 64px rgba(15, 23, 42, 0.12);
+  box-shadow: 0 24px 64px $shadow;
 }
 
 h1 {
@@ -53,7 +84,7 @@ h1 {
 p {
   margin: 0;
   line-height: 1.75;
-  color: #134e4a;
+  color: color.adjust($text, $lightness: -10%);
 }
 
 code {
