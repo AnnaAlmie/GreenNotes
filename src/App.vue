@@ -1,15 +1,18 @@
 <template>
   <main class="app-shell">
-    <nav class="app-nav">
-      <router-link to="/">Notes</router-link>
-      <router-link to="/about">About</router-link>
-    </nav>
+    <AsideMenu />
 
-    <section class="app-content">
-      <router-view />
-    </section>
+    <div class="content-wrap">
+      <section class="app-content">
+        <router-view />
+      </section>
+    </div>
   </main>
 </template>
+
+<script setup lang="ts">
+import AsideMenu from "./components/AsideMenu.vue";
+</script>
 
 <style lang="scss">
 @use "sass:color";
@@ -44,29 +47,6 @@ body {
   padding: 2rem;
 }
 
-.app-nav {
-  display: flex;
-  gap: 1rem;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-bottom: 1.5rem;
-}
-
-.app-nav a {
-  color: $text;
-  text-decoration: none;
-  font-weight: 700;
-  padding: 0.6rem 1rem;
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.75);
-  border: 1px solid rgba(6, 95, 70, 0.12);
-}
-
-.app-nav a.router-link-active {
-  background: #065f46;
-  color: white;
-}
-
 .app-content {
   width: 100%;
   max-width: 44rem;
@@ -74,6 +54,25 @@ body {
   border-radius: 1rem;
   padding: 2rem;
   box-shadow: 0 24px 64px $shadow;
+}
+
+.content-wrap {
+  width: 100%;
+}
+
+@media (min-width: 880px) {
+  .app-shell {
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    gap: 1.5rem;
+    align-items: start;
+  }
+}
+
+@media (max-width: 879px) {
+  .app-shell {
+    display: block;
+  }
 }
 
 h1 {

@@ -1,20 +1,38 @@
 <template>
   <section class="page-page">
-    <h2>Notes Page</h2>
+    <h2><span class="icon" aria-hidden="true"></span>Plant Cards</h2>
     <p>
-      This is a test page for GreenNotes. Use the navigation above to switch
-      pages.
+      This page renders plant cards from JSON data. Click a card to view full
+      details for that plant.
     </p>
-    <ul>
-      <li>Vue Router is configured in `src/router.ts`.</li>
-      <li>Routes are defined for `/` and `/about`.</li>
-    </ul>
-    <TestComponent />
+
+    <div class="cards-grid">
+      <router-link
+        v-for="plant in plants"
+        :key="plant.id"
+        :to="{ name: 'PlantDetail', params: { id: plant.id } }"
+        class="card-link"
+      >
+        <PlantCard :plant="plant" />
+      </router-link>
+    </div>
   </section>
 </template>
 
 <script setup lang="ts">
-import TestComponent from "../components/test/TestComponent.vue";
+import PlantCard from "../components/PlantCard.vue";
+import plantData from "../data/plants.json";
+
+interface Plant {
+  id: number;
+  title: string;
+  image: string;
+  description: string;
+  light: string;
+  water: string;
+}
+
+const plants: Plant[] = plantData as Plant[];
 </script>
 
 <style lang="scss" scoped>
@@ -24,5 +42,35 @@ import TestComponent from "../components/test/TestComponent.vue";
 
 h2 {
   margin-top: 0;
+}
+
+.cards-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  margin-top: 1.5rem;
+}
+
+.card-link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+</style>
+
+<style lang="scss" scoped>
+.page-page {
+  padding: 1.5rem;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.cards-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  margin-top: 1.5rem;
 }
 </style>
