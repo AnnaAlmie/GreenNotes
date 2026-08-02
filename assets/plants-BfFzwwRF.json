@@ -1,0 +1,263 @@
+[
+  {
+    "id": "spathiphyllum",
+    "title": "Спатифілум",
+    "titlePopular": "Жіноче щастя",
+    "image": "assets/plants/spathiphyllum.jpg",
+    "description": "",
+    "light": "Bright indirect light",
+    "water": "Water weekly, allow topsoil to dry between waterings",
+    "lifeArea": "ростуть у вологих і болотистих лісах, уздовж річок і струмків",
+    "fertilizers": "комплексні мінеральні добрива для декоративно-квітучих рослин, органічно-гумінові концентрати та спеціальні рідкі суміші для ароїдних",
+    "fertilizersIcon": ["mineral", "flower"]
+  },
+  {
+    "id": "zamioculcas",
+    "title": "Заміокулькас",
+    "image": "assets/plants/zamioculcas.webp",
+    "light": "Low to bright indirect light",
+    "water": "Water every 2-3 weeks, do not overwater",
+    "lifeArea": "",
+    "fertilizers": "минеральные для кактусов и суккулентов",
+    "fertilizersIcon": ["mineral", "cactus"]
+  },
+  {
+    "id": "schlumbergera",
+    "title": "Шлумбергера",
+    "titlePopular": "Різдвяник",
+    "image": "assets/plants/schlumbergera.jpg",
+    "fertilizers": "комплексные минеральные удобрения с уменьшенной в два раза дозировкой, выбирая составы с повышенным содержанием азота весной и фосфора с калием перед цветением",
+    "fertilizersIcon": ["mineral", "cactus"]
+  },
+  {
+    "id": "amaryllis",
+    "title": "Амариліс",
+    "image": "assets/plants/amaryllis.jpg",
+    "fertilizers": "спеціальні рідкі добрива для цибулинних або квітучих рослин, які містять збалансований комплекс макро- та мікроелементів",
+    "fertilizersIcon": ["mineral", "flower"]
+  },
+  {
+    "id": "kalanchoe_blossfeldiana",
+    "title": "Каланхое Блоссфельда",
+    "image": "assets/plants/kalanchoe_blossfeldiana.webp",
+    "fertilizers": "минеральные для кактусов и суккулентов",
+    "fertilizersIcon": ["mineral", "cactus"]
+  },
+  {
+    "id": "dracaena_reflexa",
+    "title": "Драцена облямована",
+    "image": "assets/plants/dracaena_reflexa.jpg",
+    "fertilizers": "жидкие комплексные минеральные удобрения с маркировкой «Для драцен и пальм» или «Для декоративно-лиственных растений»",
+    "fertilizersIcon": ["mineral", "leaf"]
+  },
+  {
+    "id": "hibiscus_rosa",
+    "title": "Гібіск китайська рожа",
+    "image": "assets/plants/hibiscus_rosa.jpg",
+    "fertilizers": "мінеральні та органічні добрива для декоративно-квітучих рослин",
+    "fertilizersIcon": ["mineral", "flower"]
+  },
+  {
+    "id": "sansevieria",
+    "title": "Сансев'єрія",
+    "titlePopular": "Щучий хвіст",
+    "image": "assets/plants/sansevieria.webp",
+    "fertilizers": "минеральные для кактусов и суккулентов",
+    "fertilizersIcon": ["mineral", "cactus"]
+  },
+  {
+    "id": "sansevieria_cylindrica",
+    "title": "Сансев'є́рія циліндри́чна",
+    "image": "assets/plants/sansevieria_cylindrica.webp",
+    "fertilizers": "минеральные для кактусов и суккулентов",
+    "fertilizersIcon": ["mineral", "cactus"]
+  },
+  {
+    "id": "sansevieria_hanni",
+    "title": "Сансев'є́рія Ханні",
+    "image": "assets/plants/sansevieria_hanni.webp",
+    "fertilizers": "минеральные для кактусов и суккулентов",
+    "fertilizersIcon": ["mineral", "cactus"]
+  },
+  {
+    "id": "aichryson",
+    "title": "Аихризон",
+    "titlePopular": "Дерево кохання",
+    "image": "assets/plants/aichryson.jpg",
+    "fertilizers": "минеральные для кактусов и суккулентов",
+    "fertilizersIcon": ["mineral", "cactus"]
+  },
+  {
+    "id": "gasteria",
+    "title": "Ґастерія",
+    "image": "assets/plants/gasteria.jpg",
+    "fertilizers": "минеральные для кактусов и суккулентов",
+    "fertilizersIcon": ["mineral", "cactus"]
+  },
+  {
+    "id": "haemanthus",
+    "title": "Гемантус",
+    "image": "assets/plants/haemanthus.jpg",
+    "fertilizers": "минеральные комплексы для луковичных или цветущих растений",
+    "fertilizersIcon": ["mineral", "flower", "onion"]
+  },
+  {
+    "id": "solanum_pseudocapsicum",
+    "title": "Паслін псевдоперцевий",
+    "titlePopular": "Ягоди кохання",
+    "image": "assets/plants/solanum_pseudocapsicum.jpg",
+    "fertilizers": "квітучих кімнатних рослин або томатів і перців",
+    "fertilizersIcon": ["flower"]
+  },
+  {
+    "id": "eucharis",
+    "title": "Евхарис",
+    "titlePopular": "Амазонська лілія",
+    "image": "assets/plants/eucharis.jpg",
+    "fertilizers": "минеральные комплексы для луковичных или цветущих растений",
+    "fertilizersIcon": ["mineral", "flower", "onion"]
+  },
+  {
+    "id": "crassula",
+    "title": "Красула",
+    "titlePopular": "Грошове дерево",
+    "image": "assets/plants/crassula.webp",
+    "fertilizers": "минеральные для кактусов и суккулентов",
+    "fertilizersIcon": ["mineral", "cactus"]
+  },
+  {
+    "id": "aloe",
+    "title": "Алое",
+    "image": "assets/plants/aloe.jpg",
+    "fertilizers": "минеральные для кактусов и суккулентов",
+    "fertilizersIcon": ["mineral", "cactus"]
+  },
+  {
+    "id": "phoenix",
+    "title": "Фінік",
+    "image": "assets/plants/phoenix.webp",
+    "fertilizers": "удобрение для пальм"
+  },
+  {
+    "id": "limon",
+    "title": "Лимон",
+    "image": "assets/plants/lemon.jpg",
+    "fertilizers": "для цитрусовых",
+    "fertilizersIcon": ["citrus"]
+  },
+  {
+    "id": "viola",
+    "title": "Фіалка",
+    "image": "assets/plants/viola.jpg",
+    "fertilizers": "минеральные или органические удобрения, для цветущих комнатных растений",
+    "fertilizersIcon": ["organic", "mineral", "flower"]
+  },
+  {
+    "id": "begonia_ds_red_diamond",
+    "title": "Бегония DS-Red Diamond",
+    "image": "assets/plants/begonia_ds_red_diamond.jpg",
+    "fertilizers": "специальные комплексные минеральные составы с содержанием азота, фосфора и калия, разделяя их по типу растения на декоративно-лиственные и цветущие",
+    "fertilizersIcon": ["mineral", "leaf", "flower"]
+  },
+  {
+    "id": "callisia_fragrans",
+    "title": "Калізія запашна",
+    "titlePopular": "Золотистим вус",
+    "image": "assets/plants/callisia_fragrans.jpg",
+    "fertilizers": "комплексні мінеральні добрива для декоративно-листяних рослин",
+    "fertilizersIcon": ["mineral", "leaf"]
+  },
+  {
+    "id": "cactaceae",
+    "title": "Кактус",
+    "image": "assets/plants/cactaceae.jpeg",
+    "fertilizers": "минеральные для кактусов и суккулентов",
+    "fertilizersIcon": ["mineral", "cactus"]
+  },
+  {
+    "id": "plectranthus_amboinicus",
+    "title": "Плектрантус",
+    "titlePopular": "Кімнатна м'ята",
+    "image": "assets/plants/plectranthus_amboinicus.jpg",
+    "fertilizers": "используют сбалансированные минеральные комплексы (10-10-10 или 20-20-20 NPK) и органику (биогумус), чередуя их весной и летом каждые 2–4 недели.",
+    "fertilizersIcon": ["organic", "mineral"]
+  },
+  {
+    "id": "anturium",
+    "title": "Антуріум",
+    "titlePopular": "Чоловіче щастя",
+    "image": "assets/plants/anturium.jpg",
+    "fertilizers": "минеральные комплексы для квітучих рослин, біогумус та калійно-фосфорні суміші",
+    "fertilizersIcon": ["organic", "mineral", "flower"]
+  },
+  {
+    "id": "dracaena_sanderiana",
+    "title": "Бамбук щастя",
+    "image": "assets/plants/dracaena_sanderiana.jpg",
+    "fertilizers": "мінеральні комплекси",
+    "fertilizersIcon": ["mineral"]
+  },
+  {
+    "id": "tradescantia_zebrina",
+    "title": "Традесканція зебріна",
+    "image": "assets/plants/tradescantia_zebrina.webp",
+    "fertilizers": "мінеральні комплекси для декоративно-листяних рослин",
+    "fertilizersIcon": ["mineral", "leaf"]
+  },
+  {
+    "id": "geranium",
+    "title": "Журавець",
+    "titlePopular": "Герань",
+    "image": "assets/plants/geranium.png",
+    "fertilizers": "комплексні мінеральні або органічні добрива з фосфором і калієм",
+    "fertilizersIcon": ["organic", "mineral"]
+  },
+  {
+    "id": "rhoicissus",
+    "title": "Роіцисус",
+    "titlePopular": "Кімнатний виноград",
+    "image": "assets/plants/rhoicissus.jpg",
+    "fertilizers": "мінеральні для декоративно-листяних",
+    "fertilizersIcon": ["mineral", "leaf"]
+  },
+  {
+    "id": "scindapsus_pictus",
+    "title": "Сциндапсус Пиктус",
+    "image": "assets/plants/scindapsus_pictus.webp",
+    "fertilizers": "мінеральні для декоративно-листяних",
+    "fertilizersIcon": ["mineral", "leaf"]
+  },
+  {
+    "id": "zantedeschia",
+    "title": "Зантедехія",
+    "titlePopular": "Кала",
+    "image": "assets/plants/zantedeschia.jpg",
+    "fertilizers": "азотные, фосфорно-калийные и комплексные минеральные удобрения, а также органику (биогумус, золу)",
+    "fertilizersIcon": ["organic", "mineral"]
+  },
+  {
+    "id": "crocus",
+    "title": "Крокус",
+    "titlePopular": "Шафран",
+    "image": "assets/plants/crocus.jpg",
+    "fertilizers": "удобрения с низким содержанием азота и высоким — фосфора и калия. Азот вреден для этих цветов, так как он вызывает рост листвы в ущерб бутонам и может привести к гниению луковиц."
+  },
+  {
+    "id": "hyacinthus",
+    "title": "Гіацинт",
+    "image": "assets/plants/hyacinthus.jpg",
+    "fertilizers": ""
+  },
+  {
+    "id": "narcissus",
+    "title": "Нарцис",
+    "image": "assets/plants/narcissus.jpg",
+    "fertilizers": ""
+  },
+  {
+    "id": "muscari",
+    "title": "Мускарі",
+    "image": "assets/plants/muscari.webp",
+    "fertilizers": ""
+  }
+]
