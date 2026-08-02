@@ -4,6 +4,14 @@
       <PlantImage :image="plant.image" :alt="plant.title" />
     </div>
     <div class="card-body">
+      <div class="icons">
+        <PlantImage
+          v-for="icon in plant.fertilizersIcon"
+          :key="icon"
+          :image="`assets/icons/${icon}.svg`"
+          :alt="icon"
+        />
+      </div>
       <h3>{{ plant.title }}</h3>
     </div>
   </article>
@@ -16,6 +24,9 @@ interface Plant {
   id: string;
   title: string;
   image: string;
+  fertilizersIcon: Array<
+    "mineral" | "organic" | "flower" | "leaf" | "cactus" | "citrus"
+  >;
 }
 
 const props = defineProps<{ plant: Plant }>();
@@ -55,10 +66,21 @@ const props = defineProps<{ plant: Plant }>();
 
 .card-body {
   padding: 1rem;
+  display: grid;
+  gap: 0.5rem;
 }
 
 h3 {
   margin: 0;
   font-size: 1.1rem;
+}
+
+.icons {
+  display: flex;
+  gap: 0.5rem;
+  height: 1.5rem;
+  & > img {
+    width: 1.5rem;
+  }
 }
 </style>

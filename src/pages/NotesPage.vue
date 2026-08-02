@@ -27,6 +27,9 @@ interface Plant {
   id: string;
   title: string;
   image: string;
+  fertilizersIcon: Array<
+    "mineral" | "organic" | "flower" | "leaf" | "cactus" | "citrus"
+  >;
   description: string;
   light: string;
   water: string;
